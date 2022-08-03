@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "dart.enableSdkFormatter": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  }
+}
