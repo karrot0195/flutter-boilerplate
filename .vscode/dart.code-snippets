@@ -1,0 +1,24 @@
+{
+  "Define Stateless Screen": {
+    "scope": "dart",
+    "prefix": "dssl",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class $1 extends StatelessWidget {",
+      "  const $1({Key? key}) : super(key: key);",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "\treturn const Scaffold(",
+      "\t  body: SafeArea(",
+      "\t\tchild: SizedBox(),",
+      "\t  ),",
+      "\t);",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Define Stateless Screen"
+  }
+}

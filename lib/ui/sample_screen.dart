@@ -13,16 +13,21 @@ class SampleScreen extends StatelessWidget {
         title: const Text('Sample screen'),
       ),
       body: SafeArea(
-        child: Center(
-          child: Column(children: [
-            const Text('Sample screen'),
-            TextButton(
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Center(
+            child: Column(children: [
+              TextButton(
                 onPressed: () {
-                  Get.toNamed(AppRouter.deeplinkScreen,
-                      arguments: DeeplinkScreenArguments('accessCode'));
+                  Get.toNamed(
+                    AppRouter.deeplinkScreen,
+                    arguments: DeeplinkScreenArguments('accessCode'),
+                  );
                 },
-                child: const Text('Deeplink'))
-          ]),
+                child: const Text('Deeplink'),
+              ),
+            ]),
+          ),
         ),
       ),
     );
