@@ -1,16 +1,32 @@
-# test
+# Flutter bolderplate (riverpod + dio + getX)
 
-A new Flutter project.
+Simple way to build your application
+- state management (riverpod)
+- model (freezed)
+- dependency injection (getX)
+## Setup
+```
+fvm flutter pub get # install dependences
+./sh/build_runner.sh # run build runner script
+```
 
-## Getting Started
+## Server
+run server
+```
+cd server;
+yarn start;
+```
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ui/
+  - category
+  - common
+- models/
+  - category
+- services/
+  - category_service
+- repositories/
+  - dio # config dio
+- utils/
