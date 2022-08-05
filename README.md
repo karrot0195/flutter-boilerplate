@@ -4,6 +4,11 @@ Simple way to build your application
 - state management (riverpod)
 - model (freezed)
 - dependency injection (getX)
+
+
+|![](./screenshots/screen01.png)|![](./screenshots/screen02.png)|
+:---:|:---:
+
 ## Setup
 ```
 fvm flutter pub get # install dependences
