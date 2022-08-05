@@ -2,8 +2,10 @@
 
 Simple way to build your application
 - state management (riverpod)
+- repository (doio)
 - model (freezed)
 - dependency injection (getX)
+- API server (express)
 
 
 |![](./screenshots/screen01.png)|![](./screenshots/screen02.png)|
@@ -25,6 +27,8 @@ yarn start;
 
 ## structure
 
+Mobile application
+
 - ui/
   - category
   - common
@@ -34,4 +38,8 @@ yarn start;
   - category_service
 - repositories/
   - dio # config dio
-- utils/
+- utils/ 
+
+Server 
+- server/
+  - index.js
